@@ -16,8 +16,8 @@
   :root {
     /* colors */
     --background: #ededed;
-    --foreground: rgb(0, 0, 120);
-    --accent: rgb(175, 30, 30);
+    --foreground: rgb(0, 0, 0);
+    --accent: rgb(125, 0, 125);
     --nav-text: whitesmoke;
     --footer-text: #777777;
   }
@@ -48,7 +48,7 @@ body {
 
     font-weight: 600;
     color: var(--nav-text);
-
+    align-self: center;
   }
 
   h1 {
@@ -69,6 +69,17 @@ body {
     background-color: var(--accent);
     font-size: large;
   }
+}
+
+#logo-container {
+  position: absolute;
+  top: 10px;
+  left: 50vw;
+  transform: translateX(-51%);
+
+  width: 100px;
+  height: auto;
+  max-height: 10vh;
 }
 
 #splash {
